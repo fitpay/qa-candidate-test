@@ -81,16 +81,11 @@
                 </pluginRepository>
             </pluginRepositories>
             <build>
-                <testResources>
-                    <testResource>
-                        <directory>${project.basedir}/src/integration-test/resources</directory>
-                    </testResource>
-                </testResources>
                 <plugins>
                     <plugin>
                         <groupId>com.smartbear.soapui</groupId>
                         <artifactId>soapui-maven-plugin</artifactId>
-                        <version>5.0.0</version>
+                        <version>5.1.2</version>
                         <executions>
                             <execution>
                                 <phase>integration-test</phase>
@@ -98,7 +93,7 @@
                                     <goal>test</goal>
                                 </goals>
                                 <configuration>
-                                    <projectFile>${project.basedir}/src/integration-test/soapui/soapui-project.xml</projectFile>
+                                    <projectFile>${project.basedir}/src/test/resources/soapui-project.xml</projectFile>
                                     <junitReport>true</junitReport>
                                     <outputFolder>${project.basedir}/target/failsafe-reports</outputFolder>
                                 </configuration>
