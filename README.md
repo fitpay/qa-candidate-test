@@ -50,7 +50,9 @@ Yes! If you prefer a different form of test case implementation over junit and/o
 
 ## Homework
 
-This project is not intended to involve a huge investment of time, only to establish the patterns you think about when testing a component like this.  It does not need to be a 110% implemented project, only limited to key patterns in the following areas to help us understand how you tackle a QA/automation challenge:
+This project is not intended to involve a huge investment of time, only to establish the patterns you think about when testing a component like this.  It does not need to be a 110% implemented project, only limited to key patterns in the following areas to help us understand how you tackle a QA/automation challenge.
+
+Fork this project and tackle the following challenges:
 
 ### Assignment #1 - Test Portability
 You might notice the testing endpoint is hard coded for the tax api, this does not fit well in cloud based environment where a test case must be reuseable across all environments, developer systems, QA environments, production environments, etc...
