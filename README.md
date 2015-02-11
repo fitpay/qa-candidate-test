@@ -60,14 +60,14 @@ You might notice the testing endpoint is hard coded for the tax api, this does n
 Can you provide an easy data driven mechanism to make the test cases portable?
 
 ### Assignment #2 - Data Driven Testing
-The test utilize a static set of data, making the implementations not very scalable in terms of adding additional test cases.
+The tests utilize a static set of data, making the implementations not very scalable in terms of adding additional test cases.
 
 Can you provide for a more data driven approach to the test cases?
 
 ### Assignment #3 - Test Coverage
 Testing coverage is rather limited to happy path testing.
 
-Can you provide a more comprehensive approach by reading the API specification for the tax service?
+Can you provide a more comprehensive approach derived from reading the API specification for the tax service?
 
 ### Brownie Points - A Random Defect
 
