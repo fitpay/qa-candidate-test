@@ -5,7 +5,7 @@ integration testing leveraging junit and SoapUI.  From this project QA candidate
 The project provides two different forms of executing essentially the same integration test cases.  The test cases
 are by no means complete, they are only intended as a form of guidence.
 
-## About the API being Tested
+## What's being tested?
 The integration tests are testing a simple restful [tax calculation api]( https://anypoint.mulesoft.com/apiplatform/fitpay/#/portals/apis/12167/versions/12577/pages/13380).  The service provides a restful resource (http://qa.fit-pay.com/tax) which will calculate base sales tax for Colorado and California presenting the results with embedded [HAL](http://stateless.co/hal_specification.html) based hypermedia links.
 
 Information on possible responses along with detailed samples is provided in the *API Reference* section of the [portal](https://anypoint.mulesoft.com/apiplatform/fitpay/#/portals/apis/12167/versions/12577/pages/13380).
