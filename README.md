@@ -33,6 +33,8 @@ mvn integration-test -P soapui-integration-test
 
 ### Extending the Tests
 
+For this particular assignment, feel free to pick one (or all if you're feeling ambitious) of the following:
+
 ##### Junit
 Refer to the [SampleIT.java](https://github.com/fitpay/qa-candidate-test/blob/master/src/test/java/fitpay/tests/SampleIT.java) 
 implementation for a few sample tests.  Add your test cases and modifications to this class or leverage the pattern in a new *your_test_caseIT.java* class.
