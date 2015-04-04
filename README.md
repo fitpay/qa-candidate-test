@@ -46,7 +46,7 @@ Refer to the [soapui-project.xml](https://github.com/fitpay/qa-candidate-test/bl
 Yes! If you prefer a different form of test case implementation over junit and/or SoapUI, the world is your oyster... implement away so long as the below requirements are met.   Just add your own maven profile to the [pom.xml](https://github.com/fitpay/qa-candidate-test/blob/master/pom.xml).
 
 ## Requirements
-* A pull request is issued with your changes
+* A pull request is issued with your changes or if you'd prefer, email your submission to [jobs@fit-pay.com](mailto:jobs@fit-pay.com).
 * Instructions for executing your tests if not utilizing the junit or SoapUI implementations
 
 ## Homework
