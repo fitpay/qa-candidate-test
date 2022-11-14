@@ -5,7 +5,7 @@
     <artifactId>fitpay-qa-tester</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
-        <spring.version>4.1.3.RELEASE</spring.version>
+        <spring.version>4.2.7.RELEASE</spring.version>
         <jackson.version>2.11.0</jackson.version>
     </properties>
     <build>
